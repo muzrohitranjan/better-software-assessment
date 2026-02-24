@@ -4,15 +4,35 @@ This is a small full-stack task management system built as part of the Better So
 
 The goal of this project is not feature richness, but clarity, correctness, and maintainability.
 
+---
+
 ## Architecture
 
-- Backend: Flask REST API
-- Database: SQLite
-- Frontend: React (to be added)
-- Communication: JSON over HTTP
+- Backend: Flask REST API  
+- Database: SQLite  
+- Frontend: React  
+- Communication: JSON over HTTP  
 
-The frontend communicates with the Flask backend using REST APIs.
+The frontend communicates with the Flask backend using REST APIs.  
 All business logic and validation are handled on the backend.
+
+---
+
+## Project Structure
+
+```text
+better-software-assessment/
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── README.md
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── README.md
+├── README.md
+├── ai_guidance.md
+└── demo.png
 
 ## Backend Design
 
